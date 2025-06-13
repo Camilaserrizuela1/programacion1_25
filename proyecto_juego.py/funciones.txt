@@ -1,0 +1,11 @@
+Eventos del mouse:
+
+- Cuando se presiona un boton del mouse:
+pygame.MOUSEBUTTONDOWN
+
+se usa en un if:
+if Event,type == pg.MOUSEBUTTONDOWN:
+ posicion =(event.pos)  #devuelve una tupla con los valores X,Y donde hizo click
+    if event.button == 1: .. #devuelve un numero q representa el boton del mause donde se hizo click 8derecho o izq)
+    
+transform.scale()  función conservará la relación altura/ancho de la imagen al escalarla
